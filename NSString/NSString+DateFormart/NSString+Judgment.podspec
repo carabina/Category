@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "NSString+Judgment"
+  s.name         = "NSString+DateFormart"
   s.version      = "0.0.1"
-  s.summary      = "A category of NSString"
+  s.summary      = "A category of NSString for DateFormart"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                    A category of NSString for Login and Regist!
+                    A category of NSString for DateFormart!
                    DESC
 
   s.homepage     = "https://github.com/wkjsos/Category.git"   
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "NSString/NSString+Judgment/*.{h,m}"
+  s.source_files  = "NSString/NSString+DateFormart/*.{h,m}"
   s.exclude_files = "Category/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
