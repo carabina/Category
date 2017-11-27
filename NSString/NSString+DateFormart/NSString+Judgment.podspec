@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "NSString/NSString+DateFormart/*.{h,m}"
-  s.exclude_files = "Category/Exclude"
+  s.exclude_files = "Category/DateFormart"
 
   # s.public_header_files = "Classes/**/*.h"
 
